@@ -9,7 +9,7 @@ public interface PedidoGateway{
 //--------------------------------
 package comunicacaoExterna;
 
-public class PedidoSMS() implements PedidoGateway{
+public class PedidoSMS implements PedidoGateway{
 	
 	int enviar(int id){
 		enviaBagacaSMS(id);

@@ -9,8 +9,8 @@ public interface PedidoMapeador{
 //--------------------------------
 package despacho;
 
-public class despacho() implements PedidoMapeador{
-	
+public class Despacho implements PedidoMapeador{
+		
 	OrdemServico despachar(int id){
 	
 		descontaEstoque(id);
