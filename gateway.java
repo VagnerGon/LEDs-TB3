@@ -1,3 +1,5 @@
+package pedidos;
+
 public interface PedidoGateway{
 	
 	int enviar(int id);
@@ -5,6 +7,7 @@ public interface PedidoGateway{
 
 
 //--------------------------------
+package comunicacaoExterna;
 
 public class PedidoSMS() implements PedidoGateway{
 	
